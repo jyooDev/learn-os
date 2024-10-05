@@ -1,0 +1,11 @@
+Step1. Compile source files
+javac Task.java
+javac SRTF.java
+
+Step2-1. Run the program with file
+java SRTF [file_name]
+//ex
+java SRTF inputs.txt
+
+Step2-2. Run the program without file
+java SRTF

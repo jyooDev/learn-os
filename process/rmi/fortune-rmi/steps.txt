@@ -1,0 +1,10 @@
+# Step 1. Navigate to Hw2_2 directory.
+
+# Step 2. Compile and run RMI by executing bash file.
+$ ./remotefortune.sh
+
+# Step 3. Upon each run, the process needs to be killed manually to re-run the program. Command to delete a process may differ by OS and CLI interface. The following command works for my environment (Git Bash on Windows 11).
+$ netstat -a -o | findstr :7000
+
+# After running the command, press Ctrl + C to exit.
+
